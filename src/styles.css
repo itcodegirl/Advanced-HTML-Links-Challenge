@@ -1,23 +1,86 @@
 body {
-  font-family: sans-serif;
-  padding: 0 20px;
+  font-family: sofia, sans-serif;
+  background-color: rgb(130, 129, 131);
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
   font-weight: 900;
   margin: 0;
-  font-size: 34px;
+  font-size: 50px;
   line-height: 48px;
 }
 
-h1 h2,
-h3 {
-  color: #231d3c;
+h2 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+a,
+p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+#home-page {
+  text-align: center;
+  margin: 5px;
+  padding-top: 10%;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 900;
+  font-family: sofia, sans-serif, cursive;
+  text-decoration: underline;
+  color: rgb(40, 3, 75);
 }
 
 .logo {
   display: block;
-  margin: 30px auto;
-  width: 150px;
+  margin: 10px auto;
+  width: 25%;
+}
+
+.email-link:visited {
+  color: purple;
+}
+
+.email-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+#container-outline {
+  display: flex;
+  flex-direction: column;
+
+  /* Center-align items horizontally */
+  text-align: center;
+  /* Center-align text within the items */
+  box-sizing: content-box;
+  border: solid 5px rgb(40, 3, 75);
+  padding: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#container-outline a {
+  margin-top: 10px;
+  align-items: center;
+  /* Optional: Add some space between the link and the previous element */
 }
